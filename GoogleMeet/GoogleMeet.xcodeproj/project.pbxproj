@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97BA12522ACBCD6B00E08867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA12512ACBCD6B00E08867 /* AppDelegate.swift */; };
+		97BA12542ACBCD6B00E08867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA12532ACBCD6B00E08867 /* SceneDelegate.swift */; };
+		97BA12562ACBCD6B00E08867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA12552ACBCD6B00E08867 /* ViewController.swift */; };
+		97BA12592ACBCD6B00E08867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BA12572ACBCD6B00E08867 /* Main.storyboard */; };
+		97BA125C2ACBCD6B00E08867 /* GoogleMeet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97BA125A2ACBCD6B00E08867 /* GoogleMeet.xcdatamodeld */; };
+		97BA125E2ACBCD6C00E08867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BA125D2ACBCD6C00E08867 /* Assets.xcassets */; };
+		97BA12612ACBCD6C00E08867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97BA125F2ACBCD6C00E08867 /* LaunchScreen.storyboard */; };
+		97BA126C2ACBCD6C00E08867 /* GoogleMeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA126B2ACBCD6C00E08867 /* GoogleMeetTests.swift */; };
+		97BA12762ACBCD6C00E08867 /* GoogleMeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA12752ACBCD6C00E08867 /* GoogleMeetUITests.swift */; };
+		97BA12782ACBCD6C00E08867 /* GoogleMeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA12772ACBCD6C00E08867 /* GoogleMeetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97BA12682ACBCD6C00E08867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97BA12462ACBCD6A00E08867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97BA124D2ACBCD6A00E08867;
+			remoteInfo = GoogleMeet;
+		};
+		97BA12722ACBCD6C00E08867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97BA12462ACBCD6A00E08867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97BA124D2ACBCD6A00E08867;
+			remoteInfo = GoogleMeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97BA124E2ACBCD6A00E08867 /* GoogleMeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BA12512ACBCD6B00E08867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97BA12532ACBCD6B00E08867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97BA12552ACBCD6B00E08867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97BA12582ACBCD6B00E08867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97BA125B2ACBCD6B00E08867 /* GoogleMeet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMeet.xcdatamodel; sourceTree = "<group>"; };
+		97BA125D2ACBCD6C00E08867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97BA12602ACBCD6C00E08867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97BA12622ACBCD6C00E08867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97BA12672ACBCD6C00E08867 /* GoogleMeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BA126B2ACBCD6C00E08867 /* GoogleMeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMeetTests.swift; sourceTree = "<group>"; };
+		97BA12712ACBCD6C00E08867 /* GoogleMeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BA12752ACBCD6C00E08867 /* GoogleMeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMeetUITests.swift; sourceTree = "<group>"; };
+		97BA12772ACBCD6C00E08867 /* GoogleMeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97BA124B2ACBCD6A00E08867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA12642ACBCD6C00E08867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA126E2ACBCD6C00E08867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97BA12452ACBCD6A00E08867 = {
+			isa = PBXGroup;
+			children = (
+				97BA12502ACBCD6A00E08867 /* GoogleMeet */,
+				97BA126A2ACBCD6C00E08867 /* GoogleMeetTests */,
+				97BA12742ACBCD6C00E08867 /* GoogleMeetUITests */,
+				97BA124F2ACBCD6A00E08867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97BA124F2ACBCD6A00E08867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97BA124E2ACBCD6A00E08867 /* GoogleMeet.app */,
+				97BA12672ACBCD6C00E08867 /* GoogleMeetTests.xctest */,
+				97BA12712ACBCD6C00E08867 /* GoogleMeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97BA12502ACBCD6A00E08867 /* GoogleMeet */ = {
+			isa = PBXGroup;
+			children = (
+				97BA12512ACBCD6B00E08867 /* AppDelegate.swift */,
+				97BA12532ACBCD6B00E08867 /* SceneDelegate.swift */,
+				97BA12552ACBCD6B00E08867 /* ViewController.swift */,
+				97BA12572ACBCD6B00E08867 /* Main.storyboard */,
+				97BA125D2ACBCD6C00E08867 /* Assets.xcassets */,
+				97BA125F2ACBCD6C00E08867 /* LaunchScreen.storyboard */,
+				97BA12622ACBCD6C00E08867 /* Info.plist */,
+				97BA125A2ACBCD6B00E08867 /* GoogleMeet.xcdatamodeld */,
+			);
+			path = GoogleMeet;
+			sourceTree = "<group>";
+		};
+		97BA126A2ACBCD6C00E08867 /* GoogleMeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				97BA126B2ACBCD6C00E08867 /* GoogleMeetTests.swift */,
+			);
+			path = GoogleMeetTests;
+			sourceTree = "<group>";
+		};
+		97BA12742ACBCD6C00E08867 /* GoogleMeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97BA12752ACBCD6C00E08867 /* GoogleMeetUITests.swift */,
+				97BA12772ACBCD6C00E08867 /* GoogleMeetUITestsLaunchTests.swift */,
+			);
+			path = GoogleMeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97BA124D2ACBCD6A00E08867 /* GoogleMeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BA127B2ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeet" */;
+			buildPhases = (
+				97BA124A2ACBCD6A00E08867 /* Sources */,
+				97BA124B2ACBCD6A00E08867 /* Frameworks */,
+				97BA124C2ACBCD6A00E08867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMeet;
+			productName = GoogleMeet;
+			productReference = 97BA124E2ACBCD6A00E08867 /* GoogleMeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97BA12662ACBCD6C00E08867 /* GoogleMeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BA127E2ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeetTests" */;
+			buildPhases = (
+				97BA12632ACBCD6C00E08867 /* Sources */,
+				97BA12642ACBCD6C00E08867 /* Frameworks */,
+				97BA12652ACBCD6C00E08867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97BA12692ACBCD6C00E08867 /* PBXTargetDependency */,
+			);
+			name = GoogleMeetTests;
+			productName = GoogleMeetTests;
+			productReference = 97BA12672ACBCD6C00E08867 /* GoogleMeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97BA12702ACBCD6C00E08867 /* GoogleMeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BA12812ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeetUITests" */;
+			buildPhases = (
+				97BA126D2ACBCD6C00E08867 /* Sources */,
+				97BA126E2ACBCD6C00E08867 /* Frameworks */,
+				97BA126F2ACBCD6C00E08867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97BA12732ACBCD6C00E08867 /* PBXTargetDependency */,
+			);
+			name = GoogleMeetUITests;
+			productName = GoogleMeetUITests;
+			productReference = 97BA12712ACBCD6C00E08867 /* GoogleMeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97BA12462ACBCD6A00E08867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					97BA124D2ACBCD6A00E08867 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					97BA12662ACBCD6C00E08867 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 97BA124D2ACBCD6A00E08867;
+					};
+					97BA12702ACBCD6C00E08867 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 97BA124D2ACBCD6A00E08867;
+					};
+				};
+			};
+			buildConfigurationList = 97BA12492ACBCD6A00E08867 /* Build configuration list for PBXProject "GoogleMeet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97BA12452ACBCD6A00E08867;
+			productRefGroup = 97BA124F2ACBCD6A00E08867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97BA124D2ACBCD6A00E08867 /* GoogleMeet */,
+				97BA12662ACBCD6C00E08867 /* GoogleMeetTests */,
+				97BA12702ACBCD6C00E08867 /* GoogleMeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97BA124C2ACBCD6A00E08867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BA12612ACBCD6C00E08867 /* LaunchScreen.storyboard in Resources */,
+				97BA125E2ACBCD6C00E08867 /* Assets.xcassets in Resources */,
+				97BA12592ACBCD6B00E08867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA12652ACBCD6C00E08867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA126F2ACBCD6C00E08867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97BA124A2ACBCD6A00E08867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BA12562ACBCD6B00E08867 /* ViewController.swift in Sources */,
+				97BA12522ACBCD6B00E08867 /* AppDelegate.swift in Sources */,
+				97BA12542ACBCD6B00E08867 /* SceneDelegate.swift in Sources */,
+				97BA125C2ACBCD6B00E08867 /* GoogleMeet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA12632ACBCD6C00E08867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BA126C2ACBCD6C00E08867 /* GoogleMeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BA126D2ACBCD6C00E08867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BA12782ACBCD6C00E08867 /* GoogleMeetUITestsLaunchTests.swift in Sources */,
+				97BA12762ACBCD6C00E08867 /* GoogleMeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97BA12692ACBCD6C00E08867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97BA124D2ACBCD6A00E08867 /* GoogleMeet */;
+			targetProxy = 97BA12682ACBCD6C00E08867 /* PBXContainerItemProxy */;
+		};
+		97BA12732ACBCD6C00E08867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97BA124D2ACBCD6A00E08867 /* GoogleMeet */;
+			targetProxy = 97BA12722ACBCD6C00E08867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97BA12572ACBCD6B00E08867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97BA12582ACBCD6B00E08867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97BA125F2ACBCD6C00E08867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97BA12602ACBCD6C00E08867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97BA12792ACBCD6C00E08867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97BA127A2ACBCD6C00E08867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97BA127C2ACBCD6C00E08867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleMeet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97BA127D2ACBCD6C00E08867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleMeet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97BA127F2ACBCD6C00E08867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleMeet";
+			};
+			name = Debug;
+		};
+		97BA12802ACBCD6C00E08867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMeet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleMeet";
+			};
+			name = Release;
+		};
+		97BA12822ACBCD6C00E08867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMeet;
+			};
+			name = Debug;
+		};
+		97BA12832ACBCD6C00E08867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.movius.ai.GoogleMeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97BA12492ACBCD6A00E08867 /* Build configuration list for PBXProject "GoogleMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BA12792ACBCD6C00E08867 /* Debug */,
+				97BA127A2ACBCD6C00E08867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BA127B2ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BA127C2ACBCD6C00E08867 /* Debug */,
+				97BA127D2ACBCD6C00E08867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BA127E2ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BA127F2ACBCD6C00E08867 /* Debug */,
+				97BA12802ACBCD6C00E08867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BA12812ACBCD6C00E08867 /* Build configuration list for PBXNativeTarget "GoogleMeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BA12822ACBCD6C00E08867 /* Debug */,
+				97BA12832ACBCD6C00E08867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97BA125A2ACBCD6B00E08867 /* GoogleMeet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97BA125B2ACBCD6B00E08867 /* GoogleMeet.xcdatamodel */,
+			);
+			currentVersion = 97BA125B2ACBCD6B00E08867 /* GoogleMeet.xcdatamodel */;
+			path = GoogleMeet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97BA12462ACBCD6A00E08867 /* Project object */;
+}
